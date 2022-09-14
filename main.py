@@ -14,7 +14,7 @@ from typing import Optional
 def setTitle(title: Optional[any]=None):
   os.system("title "+title)
 
-setTitle("Discord Server Booster - [github.com/mukitan]")
+setTitle("Discord Server Booster - [github.com/javier8686]")
 
 def clear():
   if sys.platform in ["linux", "linux2"]:
@@ -72,7 +72,7 @@ ch = input(f"{Fore.YELLOW}[!] Choice: {Fore.RESET}")
 try:
   c = int(ch)
 except ValueError:
-  print(f"{Fore.YELLOW}github.com/mukitan | Use Number To Choose.{Fore.RESET}")
+  print(f"{Fore.YELLOW}github.com/javier8686 | Use Number To Choose.{Fore.RESET}")
   sys.exit()
   
 if c == 1:
